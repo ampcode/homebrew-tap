@@ -1,4 +1,4 @@
-class Amp < Formula
+class Ampcode < Formula
   desc "CLI for Amp, the frontier coding agent"
   homepage "https://ampcode.com/"
   version "0.0.1765209229-g3dbf76"
