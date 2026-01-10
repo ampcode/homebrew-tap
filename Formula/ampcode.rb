@@ -12,10 +12,14 @@ class Ampcode < Formula
     regex(/"version":\s*"([^"]+)"/i)
   end
 
-  depends_on "node@20"
+  depends_on "node"
 
   def install
-    system "npm", "install", "--prefix", libexec, "."
-    bin.install_symlink libexec/"node_modules/.bin/amp"
+    system "npm", "install", *std_npm_args
+    bin.install_symlink libexec.glob("bin/*")
+  end
+
+  test do
+    assert_match version.to_s, shell_output("#{bin}/amp --version")
   end
 end
