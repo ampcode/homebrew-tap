@@ -1,28 +1,28 @@
 class ZvelteCheck < Formula
   desc "Fast Svelte diagnostic tool written in Zig"
   homepage "https://github.com/ampcode/zvelte-check"
-  version "0.1.3"
+  version "0.1.4"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/ampcode/zvelte-check/releases/download/v#{version}/zvelte-check-darwin-aarch64.tar.gz"
-      sha256 "ac954b13f8de6eb84e81f3239a7fa6f32b7003dc8049036809a11d77f1c95ed2"
+      sha256 "f070ab1dbf64ee863f6e953490b0ad29f459f3fe62d5c96e3f8d5712d03bd948"
     end
     on_intel do
       url "https://github.com/ampcode/zvelte-check/releases/download/v#{version}/zvelte-check-darwin-x86_64.tar.gz"
-      sha256 "1fafc0bda81fde958834bb68a51f60a836cc31aef64229e466a8b9ddfa20f113"
+      sha256 "2889f4bc8a8197c947b5eef5fc26a63c573751d0f59bd9d8904ec8fa93bea99a"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/ampcode/zvelte-check/releases/download/v#{version}/zvelte-check-linux-aarch64.tar.gz"
-      sha256 "ce8f26df417d540780158fd0e23ef96137a856d9fd86e976aa79f09424cf541f"
+      sha256 "53ba3dd438ca5f09bd9964bb4a5c0e8b7ead46798265b33a912a6c5383df4e09"
     end
     on_intel do
       url "https://github.com/ampcode/zvelte-check/releases/download/v#{version}/zvelte-check-linux-x86_64.tar.gz"
-      sha256 "311837b9cac8581e32a31dcefd979b56836c5a190c8d1580f85fca3cb97fe880"
+      sha256 "60b58029a05c163aba778b20f1b5c5c1fbc9bc01fe856751612890e1511d1e5a"
     end
   end
 
