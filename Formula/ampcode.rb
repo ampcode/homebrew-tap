@@ -1,10 +1,10 @@
 class Ampcode < Formula
   desc "CLI for Amp, the frontier coding agent"
   homepage "https://ampcode.com/"
-  version "0.0.1768931017-g171eef"
+  version "0.0.1768940484-g07ad7c"
 
   url "https://registry.npmjs.org/@sourcegraph/amp/-/amp-#{version}.tgz"
-  sha256 "cb12f41de35330d3dba5bbbe316bbda5a5c99dd2d5d6bae0d5ca63acb91604c0"
+  sha256 "a71cf63ae8511a5c637ce544b7346b301825e0713a55ee7153c5a9eb4630af9b"
   license :cannot_represent
 
   livecheck do
