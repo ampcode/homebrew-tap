@@ -1,7 +1,7 @@
 class Ampcode < Formula
   desc "CLI for Amp, the frontier coding agent"
   homepage "https://ampcode.com/"
-  version "0.0.1773921912-g1d4113"
+  version "0.0.1773927386-g555b4a"
   license :cannot_represent
 
   livecheck do
@@ -11,21 +11,21 @@ class Ampcode < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://storage.googleapis.com/amp-public-assets-prod-0/cli/0.0.1773921912-g1d4113/amp-darwin-arm64"
-      sha256 "9b36ef63a37ea0e00387164fdb8a437b546a8777f09516c556d0891ed58911c8"
+      url "https://storage.googleapis.com/amp-public-assets-prod-0/cli/0.0.1773927386-g555b4a/amp-darwin-arm64"
+      sha256 "05b8ae5d08a1f8a13bb4031432c5455650bca11abaae2f5a41b0a491c33792de"
     else
-      url "https://storage.googleapis.com/amp-public-assets-prod-0/cli/0.0.1773921912-g1d4113/amp-darwin-x64"
-      sha256 "d2d948e7a633b23a80b698adebe430554ebe477c0a8ff6e81aee2f1ee429039e"
+      url "https://storage.googleapis.com/amp-public-assets-prod-0/cli/0.0.1773927386-g555b4a/amp-darwin-x64"
+      sha256 "bc75c15dad1717a03ea7595cec9d192ac9f92236639a9102b29ac44f21a648cf"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://storage.googleapis.com/amp-public-assets-prod-0/cli/0.0.1773921912-g1d4113/amp-linux-arm64"
-      sha256 "2ababa4c3fb8856bc99e87be2fc3b307a9b8221c6583368b58eebe5c683e8e2f"
+      url "https://storage.googleapis.com/amp-public-assets-prod-0/cli/0.0.1773927386-g555b4a/amp-linux-arm64"
+      sha256 "1fb8d124c6da5d62342bdac65f67f3a551b12849b37e8fc7d02262e00884be47"
     else
-      url "https://storage.googleapis.com/amp-public-assets-prod-0/cli/0.0.1773921912-g1d4113/amp-linux-x64"
-      sha256 "981618cf9a834858b7ea62ab26fd2e70e962d53d32e2fdcd7e483953b045ac03"
+      url "https://storage.googleapis.com/amp-public-assets-prod-0/cli/0.0.1773927386-g555b4a/amp-linux-x64"
+      sha256 "9090c4c04e63877345cc1662dc2ce3ad96609d407276721668beb2957c3b3f31"
     end
   end
 
