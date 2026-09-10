@@ -1,7 +1,7 @@
 class Ampcode < Formula
   desc "CLI for Amp, the frontier coding agent"
   homepage "https://ampcode.com/"
-  version "0.0.1789012846-g065e0b"
+  version "0.0.1789029207-gc41cb8"
   license :cannot_represent
 
   livecheck do
@@ -11,21 +11,21 @@ class Ampcode < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://static.ampcode.com/cli/0.0.1789012846-g065e0b/amp-darwin-arm64"
-      sha256 "135b128091fab342e91db12758d05d847413c8684f429f1ef53d3d283430bda2"
+      url "https://static.ampcode.com/cli/0.0.1789029207-gc41cb8/amp-darwin-arm64"
+      sha256 "3c0fb9f5ba74c86bbe593a9054f222664698e18c42817174a296182e074c0105"
     else
-      url "https://static.ampcode.com/cli/0.0.1789012846-g065e0b/amp-darwin-x64"
-      sha256 "e5e8a2bbbab0870318ceaae16b328e145efd2b2d536d0987a1bcd1c65c4a5662"
+      url "https://static.ampcode.com/cli/0.0.1789029207-gc41cb8/amp-darwin-x64"
+      sha256 "7ec42cc9629fa264376da9bbf5c2c177306e30672a76751be2ac6869a81a43df"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://static.ampcode.com/cli/0.0.1789012846-g065e0b/amp-linux-arm64"
-      sha256 "33a1a6349bd5d43f7f2f41c989213c34d9e19e7ee4c39464ccd452f392d24041"
+      url "https://static.ampcode.com/cli/0.0.1789029207-gc41cb8/amp-linux-arm64"
+      sha256 "217981f3fab6a2bc87850ec08b6654cd6c6748cc1fb9aee3aed5ad08b040237e"
     else
-      url "https://static.ampcode.com/cli/0.0.1789012846-g065e0b/amp-linux-x64"
-      sha256 "e1a3c9e3fb7bd1fab5dd38c5933f4b6b87b273ab947d5b80d29bca87264200d8"
+      url "https://static.ampcode.com/cli/0.0.1789029207-gc41cb8/amp-linux-x64"
+      sha256 "efae9fa2710d6b6fc5a0d3babe57104b5563066b99e20f710e701b28322ee74f"
     end
   end
 
