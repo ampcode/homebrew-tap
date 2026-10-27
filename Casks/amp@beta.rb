@@ -1,6 +1,6 @@
 cask "amp@beta" do
-  version "1.0,137"
-  sha256 "00c6eb1f45cbad59057d1d4ded0eccec45c7c2530edebfb76f3f3db5ffafd664"
+  version "1.0,944"
+  sha256 "db5bac49b91b309d95a232989f11f0a395ff1304ee0842843b6328526be70335"
 
   url "https://static.ampcode.com/mac/Amp-#{version.csv.first}-#{version.csv.second}.dmg"
   name "Amp"
@@ -13,6 +13,7 @@ cask "amp@beta" do
   end
 
   auto_updates true
+  depends_on arch: :arm64
   depends_on macos: :tahoe
 
   app "Amp.app"
